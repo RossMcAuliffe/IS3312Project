@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Nov 2020, 17:11:55
+    Author     : rossmcauliffe
+*/
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.header {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
